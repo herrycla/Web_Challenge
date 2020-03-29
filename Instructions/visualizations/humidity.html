@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+
+
+    <head>
+
+        <meta charset="UTF=8">
+
+        <title>Visualization Dashboard</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen">
+
+        <link rel="stylesheet" href="../style.css" media="screen">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+    </head>
+
+
+
+    <body>
+
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-default">
+
+            <div class="container-fluid navbar-custom">
+
+
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+
+                <div class="row">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+                            <span class="sr-only">Toggle navigation</span>
+
+                            <span class="icon-bar"></span>
+
+                            <span class="icon-bar"></span>
+
+                            <span class="icon-bar"></span>
+
+                        </button>
+
+                        <div class="col-xs-9 phone-nav">
+
+                            <a class="navbar-brand" id="title" href="../index.html">Latitude</a>
+
+                        </div>
+
+                    </div>
+
+                                       
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+
+                    <div class="nav navbar-nav navbar-right navbar-right-custom">
+
+                        <li class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+
+                                aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+
+                            <ul class="dropdown-menu">
+
+                                <li><a href="maxtemp.html">Max Temperature</a></li>
+
+                                <li><a href="humidity.html">Humidity</a></li>
+
+                                <li><a href="cloudiness.html">Cloudiness</a></li>
+
+                                <li><a href="windspeed.html">Wind Speed</a></li>
+
+                            </ul>
+
+                        </li>
+
+                        <li><a href="../comparison.html">Comparison</a></li>
+
+                        <li><a href="../data.html">Data</a></li>
+
+                    </div>
+
+                </div>
+
+            </div>                            
+
+        </nav>
+
+
+
+        <!-- Container for Landing page details starts -->
+
+        <div class = "container">
+
+            <section class="row">
+
+                <div class="col-md-8">
+
+                    <article class="explanation-all">
+
+                        <h1 class="explanation-header">Humidity</h1>
+
+                        <hr />
+
+                        <img src="../plot_images/Humidity.png"/>
+
+                            <p class="explanation">There is no clear relation between the humidity 
+
+                                and latitude. Although, if we take a closer look, we can see that 
+
+                                the humidity is between 60-100% in the cities that lie between 
+
+                                40deg S and 70deg N. We may need to further study the humidity 
+
+                                data with the Longitude data to see how the oceans and land 
+
+                                temperatures and cloud cover affect it.</p>
+
+                        <hr />
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- Creating visualizations for the plot images on the right -->
+
+                <div class="col-md-4">
+
+                    <section id="visualizations-display">
+
+                        <div class="visualizations">
+
+                            <h2 class="visualizations-header">Visualizations</h2>
+
+                            <hr />
+
+                            <div id="visualizations-images">
+
+                                <a href="maxtemp.html"><img 
+
+                                        src="../plot_images/Max_Temperature.png" 
+
+                                        alt="Latitude vs. Max Temperature" 
+
+                                        class="visualizations-image"></a>
+
+                                <a href="humidity.html"><img 
+
+                                        src="../plot_images/Humidity.png" 
+
+                                        alt="Latitude vs. Humidity" 
+
+                                        class="visualizations-image"></a>
+
+                                <p></p>
+
+                                <a href="cloudiness.html"><img 
+
+                                        src="../plot_images/Cloudiness.png" 
+
+                                        alt="Latitude vs. Cloudiness" 
+
+                                        class="visualizations-image"></a>
+
+                                <a href="windspeed.html"><img 
+
+                                        src="../plot_images/Wind_Speed.png" 
+
+                                        alt="Latitude vs. Wind Speed" 
+
+                                        class="visualizations-image"></a>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+
+        <!-- footer -->
+
+        <footer class="footer navbar-fixed-bottom">
+
+            <p class="text-muted text-muted-footer text-center">&copy; </p>
+
+        </footer>
+
+
+
+    </body>
+
+
+
+</html>

@@ -1,0 +1,249 @@
+
+
+html {
+
+    position: relative;
+  
+    min-height: 100%;
+  
+  }
+  
+  
+  
+  body {
+  
+      margin-bottom: 100px;
+  
+      font-family: Arial;
+  
+      background-color: white;
+  
+    }
+  
+    
+  
+  /* Navbar */
+  
+  .navbar-default .navbar-nav >li> a:hover  { 
+  
+    color: #DC143C
+  
+    }
+  
+  
+  
+  .navbar-custom {
+  
+      background-color: #FAEBD7;
+  
+    }
+  
+  
+  
+  .navbar-right-custom {
+  
+      padding-top: 10px;
+  
+      padding-right: 110px;
+  
+      font-family: Arial;
+  
+      font-size: 15px;
+  
+      font-weight: bolder;
+  
+      color: #DC143C;
+  
+    }
+  
+  
+  
+  #title {
+  
+      padding-top: 20px;
+  
+      padding-bottom: 5px;
+  
+      margin-left: 90px;
+  
+      height: 65px;
+  
+      font-family:  "Times New Roman";
+  
+      font-size: 30px;
+  
+      font-weight: bold;
+  
+      color: white;
+  
+      background: #DC143C;
+  
+    }
+  
+  
+  
+  .explanation-header {
+  
+      margin-bottom: 33px;
+  
+      font-family: "Times New Roman";
+  
+      font-size: 30px;
+  
+      font-weight: bold;
+  
+      color: rgb(114, 18, 37);
+  
+    }
+  
+    
+  
+  .explanation-all {
+  
+      padding: 15px;
+  
+      margin-top: 35px;
+  
+      background-color: #FAEBD7;
+  
+    }
+  
+  
+  
+  #explanation-image {
+  
+      float: left;
+  
+      margin-right: 20px;
+  
+      margin-top: 15px;
+  
+      width: 200px;
+  
+      height: 200px;
+  
+    }
+  
+  
+  
+  .explanation {
+  
+        padding-top:20px;
+  
+        padding-bottom: 5px;
+  
+        font-size: 18px;
+  
+    }
+  
+  
+  
+  #visualizations-display {
+  
+      padding: 30px 30px 55px;
+  
+      margin-top: 35px;
+  
+      width: 100%;
+  
+      background-color: #FAEBD7;
+  
+    }
+  
+  
+  
+  .visualizations-header {
+  
+      margin-top: 5px;
+  
+      margin-bottom: 15px;
+  
+      font-family: "Times New Roman";
+  
+      font-size:25px;
+  
+      font-weight: bold;
+  
+      color: rgb(117, 9, 31);
+  
+    }
+  
+    
+  
+  .visualizations-image {
+  
+      width: 147px;
+  
+      height: 147px;
+  
+    }
+  
+  
+  
+  .visualizations-images:hover {
+  
+    }
+  
+  
+  
+  #visualizations-images {
+  
+      padding-top: 5px;
+  
+      text-align: center;
+  
+    }
+  
+  
+  
+  #click-link {
+  
+      font-family: Arial, Helvetica, sans-serif;
+  
+      font-weight: bold;
+  
+  }
+  
+  
+  
+  .comparison-header {
+  
+      margin-bottom: 10px;
+  
+      font-family: "Times New Roman";
+  
+      font-size: 22px;
+  
+      font-weight: bold;
+  
+      text-align: center;
+  
+      color: rgb(120, 45, 190);
+  
+    }
+  
+  
+  
+  .footer {
+  
+    position: absolute;
+  
+    margin-top: 30px;
+  
+    bottom:0;
+  
+    width: 100%;
+  
+    background-color: grey;
+  
+    }
+  
+  .text-muted-footer {
+  
+      margin-top: 10px;
+  
+      color: white;
+  
+    }
+  
+  
